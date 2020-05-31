@@ -12,7 +12,6 @@ Api key: bf343ac25ffad3946e8e0afedf7b3c2f
 or 
 
 1. http://www.omdbapi.com/?apikey=[yourkey]&
-key: 
 
 **Wireframes**
 1. https://imgur.com/gallery/OvdgPsg
@@ -30,7 +29,6 @@ key:
 2. add a favorites or wish list for the end of the project
 3. Additional CSS to make players want to engage (animation)
 4. Add secound APi pull for rotten tomotos review
-5. 
 
 **Project Schedule**
 Meeting with Jenn: Monday, June 1st, 
@@ -60,6 +58,7 @@ https://imgur.com/gallery/TJPrjmb
 | Total | M | 13hrs|  hrs |  hrs |
 
 **##API Snippet**
+```
 {
 adult: false,
 backdrop_path: "/8iVyhmjzUbvAGppkdCZPiyEHSoF.jpg",
@@ -149,3 +148,6 @@ video: false,
 vote_average: 8.4,
 vote_count: 19286
 }
+```
+
+**Change Log**
