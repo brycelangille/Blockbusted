@@ -44,6 +44,38 @@ Meeting with Jenn: Monday, June 1st,
 |June 4| MVP/Post MVP checklist completion | Incomplete
 |June 5| Present to the Class| Incomplete
 
+#### Component Hierarchy
+
+```
+src
+|__ assets/
+      |__ data-tests
+      |__ fonts
+      |__ graphics
+      |__ images
+|__ components/
+      |__ Header.jsx
+      |__ Movie.jsx
+      |__ App.js
+      |__ Footer.jsx
+
+      
+#### Component Breakdown
+
+> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
+
+|  Component   |    Type    | State | Props | Description                                                      |
+| :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
+|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
+|  App  | functional |   n   |   y   | _The navigation will provide a link to each of the pages.
+_       |
+| Movie | functional |   n   |   y   | _The cards will render the post info via props.
+_                 |
+|    Footer    | functional |   n   |   n   | _The footer will show info about me anda link to the API.
+_ |
+
+<br>
+
 **Priority Matrix**
 https://imgur.com/gallery/TJPrjmb
 
