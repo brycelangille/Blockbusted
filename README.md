@@ -14,15 +14,17 @@ or
 1. http://www.omdbapi.com/?apikey=[yourkey]&
 
 **Wireframes**
-1. https://imgur.com/gallery/OvdgPsg
+1. https://imgur.com/gallery/OvdgPsg (Desktop)
+2. https://imgur.com/gallery/q2J2mxN (Mobile)
+3. https://imgur.com/gallery/TNTogZY (Tablet)
 
 **MVP**
-1. Structed material in organized and challenging way
-2. Recieve data endpoints. Display data as an ingaging way for users
-3. Add CSS to make it fun/engaging
-4. Ability to be interactive with audience
-5. Getting testing to work for my project or use Scoreboard if unable to do
-6. Make app both Landscape and portiot mode for mobile, tablet
+1. Structed material in organized and dry (personal goal i look forward to completing)
+2. Recieve data endpoints. Display data as an ingaging way for users. (API goal)
+3. Add CSS to make it fun/engaging (looking into animation and detailing the show component) 
+4. Search component is ingaging for users ( making sure the data renders and displays in a way that would be marketable to an audience)
+5. Getting testing to work for my project ( implementing a skill that i need to work on)
+6. Make app both Landscape and portiot mode for mobile, tablet(css design)
 
 **PostMVP**
 1. Adding casting, crew, and genre
@@ -37,7 +39,7 @@ Meeting with Jenn: Monday, June 1st,
 |---|---| ---|
 |June 1| Project Prompt | Incomplete
 |June 1-2| Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 2| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|June 2| Design Application Structure  (CSS) | Incomplete
 |June 2| React/API coding | Incomplete
 |June 3-4| Debugging and completing coding from June2-3rd  | Incomplete
 |June 3-4| Create Testing/Scorebaording on June2-3rd  | Incomplete
@@ -56,7 +58,10 @@ src
 |__ components/
       |__ Header.jsx
       |__ Movie.jsx
+      |__ Search.jsx
+      |__ Detail.jsx
       |__ App.js
+      |__ style.css
       |__ Footer.jsx
 ```
       
@@ -67,8 +72,12 @@ src
 |    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
 |  App  | functional |   n   |   y   | _The navigation will provide a link to each of the pages.
 _       |
-| Movie | functional |   n   |   y   | _The cards will render the post info via props.
+| Movie | functional |   n   |   y   | _The Home page will render the post info via props.
 _                 |
+|    Search    | functional |   n   |   n   | _The Search component used to searchign through the API.
+_ |
+|    Details    | functional |   n   |   n   | _The show component that is used to display the details.
+_ |
 |    Footer    | functional |   n   |   n   | _The footer will show info about me anda link to the API.
 _ |
 
@@ -81,11 +90,12 @@ https://imgur.com/gallery/TJPrjmb
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | :---: | :---: |  :---: | :---: | :---: |
-| HTML/CSS | H | 2hrs| hrs | hrs|
-| React/API| H | 4hrs| hrs  | hrs |
-| Debugging | H | 3hrs| hrs | hrs |
-| MVP/Post MVP | H | 4hrs| hrs | hrs|
-| Total | M | 13hrs|  hrs |  hrs |
+| CSS | H | 3hrs| hrs | hrs|
+| React/API| H | 5hrs| hrs  | hrs |
+| Testing | H | 5hrs| hrs | hrs |
+| Debugging | H | 5hrs| hrs | hrs |
+| MVP/Post MVP | H | 8hrs| hrs | hrs|
+| Total | M | 26hrs|  hrs |  hrs |
 
 **##API Snippet**
 ```
