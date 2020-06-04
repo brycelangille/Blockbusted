@@ -12,6 +12,7 @@ Api key: bf343ac25ffad3946e8e0afedf7b3c2f
 or 
 
 1. http://www.omdbapi.com/?apikey=[yourkey]&
+key: 1cb40ea2
 
 **Wireframes**
 1. https://imgur.com/gallery/OvdgPsg (Desktop)

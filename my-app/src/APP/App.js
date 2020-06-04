@@ -18,21 +18,19 @@ class App extends Component {
     return (
       <div>
         <Link to="/" exact>
-        <Header  />
+          <Header />
         </Link>
         <Route path="/SearchPage/:Searchtime">
-          <Search  />
-          </Route>
+          <Search />
+        </Route>
         <div className="homepage" >
-           <Route path="/" exact>
-          <Home  />
+          <Route path="/" exact>
+            <Home />
           </Route>
-        <Route path="/Movie/:Movietime">
-          <Movie />
-          </Route>
+          <Route path="/Movie/:Movietime" render={(props) => (<Movie id={props.match.params.Movietime} />)} />
         </div>
-            <Footer />
-        </div>
+        <Footer />
+      </div>
     )
   }
 }

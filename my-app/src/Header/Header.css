@@ -1,10 +1,22 @@
 .header{
   display: flex;
-  background-color: black;
-  color: white;
+  background-color: rgb(35, 73,159);
+  color: rgb(223, 174, 71);
   text-align: center;
+  display: wrap;
+  max-width: 100%;
   }
-  
-  h1{
-    text-align: center;
+
+  .logoThing {
+display: flex;
+  }
+
+  .logo{
+    width: 10%;
+    height: auto;
+    position:  left;
+  }
+
+  .titlePage{
+    color: rgb(223, 174, 71);
   }

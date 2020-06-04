@@ -21,7 +21,7 @@ export default class Home extends Component {
     }
   render() {
     return (
-    <div>
+    <div className='body'>
         {this.state.trendingMovie && this.state.trendingMovie.map(movie => (
           <Link to={`/Movie/${movie.id}`}>
           <div className="trending">

@@ -1,4 +1,4 @@
-.body {
+.content {
   display: flex;
   flex-direction: row;
   width: 5%;
@@ -10,7 +10,7 @@
   overflow-x: scroll;
   }
 
-.trendingPhoto img {
+.trending img {
    scroll-snap-align: center;
 }
 
