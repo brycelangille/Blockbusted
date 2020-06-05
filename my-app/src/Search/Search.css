@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-/* Style the search field */
 input {
   padding: 10px;
   font-size: 17px;
@@ -10,11 +9,10 @@ input {
   float: left;
   width: 50%;
   background: #f1f1f1;
-  position:fixed; right:80px;
+  position:absolute; right:80px;
   margin: 30px;
 }
 
-/* Style the submit button */
 button {
   float: left;
   width: 20%;
@@ -24,17 +22,16 @@ button {
   color: white;
   font-size: 10px;
   border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
+  border-left: none;
   cursor: pointer;
-  position:fixed; right:80px;
+  position:absolute; right:80px;
   margin: 30px;
 }
 
 button:hover {
-  background: #0b7dda;
+  background: orange;
 }
 
-/* Clear floats */
 input::after {
   content: "";
   clear: both;

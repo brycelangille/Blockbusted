@@ -20,6 +20,7 @@ class App extends Component {
         <Link to="/" exact>
           <Header />
         </Link>
+        <div className="MagicMike">
         <Route path="/SearchPage/:Searchtime">
           <Search />
         </Route>
@@ -28,6 +29,7 @@ class App extends Component {
             <Home />
           </Route>
           <Route path="/Movie/:Movietime" render={(props) => (<Movie id={props.match.params.Movietime} />)} />
+        </div>
         </div>
         <Footer />
       </div>

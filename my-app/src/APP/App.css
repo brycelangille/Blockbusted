@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.MagicMike{
+  min-height: 81vh;
+}
