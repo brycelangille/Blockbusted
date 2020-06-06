@@ -1,33 +1,3 @@
-
-**API:**
-1. https://api.themoviedb.org/3/movie/550?api_key=bf343ac25ffad3946e8e0afedf7b3c2f
-Api key: bf343ac25ffad3946e8e0afedf7b3c2f
-2. Documentation: https://www.themoviedb.org/documentation/api
-3. Support forum: https://www.themoviedb.org/talk/category/5047958519c29526b50017d6
-4. Wrappers & libraries: https://www.themoviedb.org/documentation/api/wrappers-libraries
-
-
-
-**Project Schedule**
-Meeting with Jenn: Monday, June 1st, 
-
-|  Day | Deliverable | Status
-|---|---| ---|
-|June 1| Project Prompt | Incomplete
-|June 1-2| Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 2| Design Application Structure  (CSS) | Incomplete
-|June 2| React/API coding | Incomplete
-|June 3-4| Debugging and completing coding from June2-3rd  | Incomplete
-|June 3-4| Create Testing/Scorebaording on June2-3rd  | Incomplete
-|June 4| MVP/Post MVP checklist completion | Incomplete
-|June 5| Present to the Class| Incomplete
-  
-  
-**Priority Matrix**
-https://imgur.com/gallery/TJPrjmb
-
-Try number two
-
 **BlockBusted**
 
 **Overview/Description:** During a Quarentine everyone needs a something new to watch on televesion. It is a good time to spend with family, friends, or someone close. To distract you from the world's current situation this React, movie project to be able to search movei, tv, and series at a click of a button. Thank you for you tuning in. 
@@ -247,22 +217,14 @@ src
 
 <br>
 
-#### Helper Functions
-
-> Use this section to document all helper functions, i.e. generic functions that can be reused in other applications.
-
-|  Function  | Description                                |
-| :--------: | :----------------------------------------- |
-| Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
-
-<br>
-
 ### Post-MVP
 
 **PostMVP**
 1. Adding casting, crew, and genre
-3. Additional CSS to make players want to engage 
-4. Add movie/tv review from rotten tomato or imdb
+2. Additional CSS to make it more engaging
+3. Add movie/tv review from rotten tomato or imdb
+4. Adding a secound API to improve search results
+5. Create a logo for the project
 <br>
 
 ***
