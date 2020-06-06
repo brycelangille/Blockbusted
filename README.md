@@ -1,6 +1,3 @@
-**Movie-IMDB-Project-2**
-
-**Game Description:** During a Quarentine everyone needs a something new to watch on televesion. It is a good time to spend with family, friends, or someone close. To distract you from the world's current situation this React, movie project to be able to search movei, tv, and series at a click of a button. Thank you for you tuning in. 
 
 **API:**
 1. https://api.themoviedb.org/3/movie/550?api_key=bf343ac25ffad3946e8e0afedf7b3c2f
@@ -9,29 +6,7 @@ Api key: bf343ac25ffad3946e8e0afedf7b3c2f
 3. Support forum: https://www.themoviedb.org/talk/category/5047958519c29526b50017d6
 4. Wrappers & libraries: https://www.themoviedb.org/documentation/api/wrappers-libraries
 
-or 
 
-1. http://www.omdbapi.com/?apikey=[yourkey]&
-key: 1cb40ea2
-
-**Wireframes**
-1. https://imgur.com/gallery/OvdgPsg (Desktop)
-2. https://imgur.com/gallery/q2J2mxN (Mobile)
-3. https://imgur.com/gallery/TNTogZY (Tablet)
-
-**MVP**
-1. Structed material in organized and dry (personal goal i look forward to completing)
-2. Recieve data endpoints. Display data as an ingaging way for users. (API goal)
-3. Add CSS to make it fun/engaging (looking into animation and detailing the show component) 
-4. Search component is ingaging for users ( making sure the data renders and displays in a way that would be marketable to an audience)
-5. Getting testing to work for my project ( implementing a skill that i need to work on)
-6. Make app both Landscape and portiot mode for mobile, tablet(css design)
-
-**PostMVP**
-1. Adding casting, crew, and genre
-2. add a favorites or wish list for the end of the project
-3. Additional CSS to make players want to engage (animation)
-4. Add secound APi pull for rotten tomotos review
 
 **Project Schedule**
 Meeting with Jenn: Monday, June 1st, 
@@ -46,59 +21,81 @@ Meeting with Jenn: Monday, June 1st,
 |June 3-4| Create Testing/Scorebaording on June2-3rd  | Incomplete
 |June 4| MVP/Post MVP checklist completion | Incomplete
 |June 5| Present to the Class| Incomplete
-
-#### Component Hierarchy
-
-```
-src
-|__ assets/
-      |__ data-tests
-      |__ fonts
-      |__ graphics
-      |__ images
-|__ components/
-      |__ Header.jsx
-      |__ Movie.jsx
-      |__ Search.jsx
-      |__ Detail.jsx
-      |__ App.js
-      |__ style.css
-      |__ Footer.jsx
-```
-      
-#### Component Breakdown
-
-|  Component   |    Type    | State | Props | Description                                                      |
-| :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  App  | functional |   n   |   y   | _The navigation will provide a link to each of the pages.
-_       |
-| Movie | functional |   n   |   y   | _The Home page will render the post info via props.
-_                 |
-|    Search    | functional |   n   |   n   | _The Search component used to searchign through the API.
-_ |
-|    Details    | functional |   n   |   n   | _The show component that is used to display the details.
-_ |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me anda link to the API.
-_ |
-
-<br>
-
+  
+  
 **Priority Matrix**
 https://imgur.com/gallery/TJPrjmb
 
-**Timeframes**
+Try number two
 
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| :---: | :---: |  :---: | :---: | :---: |
-| CSS | H | 3hrs| hrs | hrs|
-| React/API| H | 5hrs| hrs  | hrs |
-| Testing | H | 5hrs| hrs | hrs |
-| Debugging | H | 5hrs| hrs | hrs |
-| MVP/Post MVP | H | 8hrs| hrs | hrs|
-| Total | M | 26hrs|  hrs |  hrs |
+**BlockBusted**
 
-**##API Snippet**
+**Overview/Description:** During a Quarentine everyone needs a something new to watch on televesion. It is a good time to spend with family, friends, or someone close. To distract you from the world's current situation this React, movie project to be able to search movei, tv, and series at a click of a button. Thank you for you tuning in. 
+
+
+
+
+<br>
+
+### Wireframes
+
+> Use the Wireframes section to display desktop, tablet and mobile views.
+1. https://imgur.com/gallery/OvdgPsg (Desktop)
+2. https://imgur.com/gallery/q2J2mxN (Mobile)
+3. https://imgur.com/gallery/TNTogZY (Tablet)
+
+
+
+<br>
+
+### MVP
+
+1. Structed material in organized and dry (personal goal i look forward to completing)
+2. Recieve data endpoints. Display data as an ingaging way for users. (API goal)
+3. Add CSS to make it fun/engaging (looking into animation and detailing the show component) 
+4. Search component is ingaging for users ( making sure the data renders and displays in a way that would be marketable to an audience)
+5. Getting testing to work for my project ( implementing a skill that i need to work on)
+6. Make app both Landscape and portiot mode for mobile, tablet(css design)
+
+
+<br>
+
+#### Goals
+My goal is to create an application that will share relative information that is similiar to a IMDB page. I wanted to create an application that is scable and easy to add onto in the future giving me more opportunity to be creative and apply React features regularly moving forward. 
+
+|     Day          | Deliverable                                |
+| :--------------: | :----------------------------------------- |
+|   June 1.        | Project Prompt approval                    |
+|   June 1.        |  Have a successful API call with images    |
+|   June 2.        |  React and Routing complete                |
+|   June 3-4       | CSS completed.                             |
+|   June 4.        |  Add secound API    |
+|   June 3-4       | Debugging completed.                       |
+|   June 5.        | Present                          |
+
+
+
+<br>
+
+#### Libraries
+
+> Use this section to list all supporting libraries and their role in the project.
+
+|     Library      | Description                                |
+| :--------------: | :----------------------------------------- |
+|   React Router   | Allows me to use router for my app.        |
+|   Axios          | Allows me to call an API successfully.     |
+
+<br>
+
+#### Data
+
+> Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
+
+|    API     | Quality Docs? | Website       | Sample Query                            |
+| :--------: | :-----------: | :------------ | :-------------------------------------- |
+| moviedb      |      yes      | themoviedb.org    |     https://api.themoviedb.org/3/movie/550?api_key=bf343ac25ffad3946e8e0afedf7b3c2f   |
+
 ```
 {
 adult: false,
@@ -191,4 +188,95 @@ vote_count: 19286
 }
 ```
 
-**Change Log**
+<br>
+
+#### Component Hierarchy
+
+```
+src
+|__ assets/
+      |__ data-tests
+      |__ fonts
+      |__ graphics
+      |__ images
+|__ components/
+      |__ Header.jsx
+      |__ Movie.jsx
+      |__ Search.jsx
+      |__ SearchPage.jsx
+      |__ Detail.jsx
+      |__ App.js
+      |__ style.css
+      |__ Footer.jsx
+```
+      
+<br>
+
+#### Component Breakdown
+
+> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
+
+|  Component   |    Type    | State | Props | Description                                                      |
+| :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
+|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
+|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
+|   Gallery    | functional |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
+|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+|    Show      | functional |   y   |   y   | _The show will show info about the characters from the API.      |
+
+<br>
+
+#### Component Estimates
+
+> Use this section to estimate the time necessary to build out each of the components you've described above. 
+>
+> Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
+
+| Task                | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------- | :------: | :------------: | :-----------: | :---------: |
+| Header compoent     |    M     |     2 hrs      |      hrs     |      hrs      |
+| Call API.           |    H     |     3 hrs      |      hrs     |      TBD      |
+| Render images       |    H     |     3 hrs      |      hrs     |      TBD      |
+| Create Links        |    H     |     4 hrs      |      hrs     |      TBD      |
+| Search/Movie Page   |    H     |     5 hrs      |      hrs      |     TBD      |
+| CSS                 |    M     |     5 hrs      |      hrs      |     TBD      |
+| Creating Logo       |    H     |     1 hrs      |      hrs      |     TBD      |
+| Call Additional info|    H     |     3 hrs      |      hrs     |      TBD      |
+|     Debugging       |    H     |     3 hrs      |      hrs      |     TBD      |
+| TOTAL               |          |     31 hrs     |     hrs       |      TBD     |
+
+<br>
+
+#### Helper Functions
+
+> Use this section to document all helper functions, i.e. generic functions that can be reused in other applications.
+
+|  Function  | Description                                |
+| :--------: | :----------------------------------------- |
+| Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
+
+<br>
+
+### Post-MVP
+
+**PostMVP**
+1. Adding casting, crew, and genre
+3. Additional CSS to make players want to engage 
+4. Add movie/tv review from rotten tomato or imdb
+<br>
+
+***
+
+## Project Delivery
+
+### Code Showcase
+
+> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+
+```
+code snippet here
+```
+
+### Code Issues & Resolutions
+
+> Use this section to list of all major issues encountered and their resolution, if yo

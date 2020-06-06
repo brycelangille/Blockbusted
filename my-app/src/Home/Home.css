@@ -11,11 +11,11 @@
   width: 100%;
   }
 
-.trendingPhoto img {
+.homePhoto img {
    scroll-snap-align: center;
 }
 
-.trendingName {
+.homeName {
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;

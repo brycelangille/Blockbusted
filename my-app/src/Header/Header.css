@@ -3,7 +3,6 @@
   background-color: rgb(35, 73,159);
   color: rgb(223, 174, 71);
   text-align: center;
-  display: wrap;
   max-width: 100%;
   }
 
@@ -19,4 +18,14 @@ display: flex;
 
   .titlePage{
     color: rgb(223, 174, 71);
+  }
+
+  @media only screen and (max-width: 550px) {
+    .header {
+      height: 100px;
+    }
+    .logo{
+      width: 30%;
+      height: auto;
+    }
   }

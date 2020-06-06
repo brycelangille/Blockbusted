@@ -37,3 +37,13 @@ input::after {
   clear: both;
   display: table;
 }
+
+@media only screen and (max-width: 550px) {
+  button {
+   width: 50px ;
+   right: 20px;
+  }
+  input {
+    right: 20px;
+   }
+}

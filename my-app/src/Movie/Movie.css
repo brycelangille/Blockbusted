@@ -1,50 +1,26 @@
 .movieBody {
-  /* border-radius: 10px;
-  border: solid black 10px; */
   grid-template-columns: 1fr 1fr;
   display: grid;
   column-gap: 100px;
   width: 95%;
-  /* grid-row: 3; */
-
 }
 
 .movie {
   grid-template-columns: 1fr 1fr;
   display: grid;
   column-gap: 100px;
-  /* grid-template-rows: 3% 450px 450px 80px;
-  grid-gap: 15px;
-  justify-items: center; */
 }
 
-.currentMovieAddInfo{
-}
-
-img{
-  
-}
-/* @media only screen and (min-width: 550px) and (max-width: 1089px) {
-  .movie-details-poster-wrapper {
-    display: flex;
+@media only screen and (max-width: 550px) {
+  .movieBody, .movie {
+    display: block;
     flex-direction: column;
     align-items: center;
-  .movie-details-poster {
-      margin: 20px 0;
-    }
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .trendingPhoto{
+    width: 100%;
   }
 }
-
-
-@media only screen and (max-width: 549px) {
-  .movie-details-poster-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  .movie-details-poster {
-      width: 300px;
-      margin: 20px 0;
-      overflow-y: scroll;
-    }
-  }
-} */

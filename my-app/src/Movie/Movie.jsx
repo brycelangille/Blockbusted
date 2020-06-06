@@ -34,7 +34,7 @@ export default class Movie extends React.Component {
           <div className="movie">
             <div className="poster">
               <img
-                className="tredningPhoto"
+                className="trendingPhoto"
                 src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                 alt="movie"
               />

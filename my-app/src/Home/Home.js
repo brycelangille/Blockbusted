@@ -25,8 +25,8 @@ export default class Home extends Component {
         {this.state.trendingMovie && this.state.trendingMovie.map(movie => (
           <Link to={`/Movie/${movie.id}`}>
           <div className="trending">
-            <img className="trendingPhoto" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt='movie' />
-            <p className="trendingName">{movie.title || movie.original_name}</p>
+            <img className="homePhoto" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt='movie' />
+            <p className="homeName">{movie.title || movie.original_name}</p>
           </div>
           </Link>
         ))}
