@@ -15,7 +15,7 @@ export default class Movie extends React.Component {
     const currentMovie = response.data;
     const imbdID = response.data.imdb_id;
     const newResponse = await axios.get(
-      `http://www.omdbapi.com/?apikey=d16f267&i=${imbdID}&plot=full`
+      `https://www.omdbapi.com/?apikey=d16f267&i=${imbdID}&plot=full`
     );
     const currentMovieAddInfo = newResponse.data;
     console.log(currentMovieAddInfo);
